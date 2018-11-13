@@ -7,6 +7,30 @@ html, body {
     height: 100vh !important;
 }
 #defaultCity{
-    background-color: darkgrey;
+    color: white;
+    background-color: rgb(90, 90, 90);
     height: 300px;
+}
+#secondaryCity{
+    color: white;
+    background-color: rgb(90, 90, 90);
+    height: 300px;
+}
+span{
+    font-size: 125px;
+}
+.vL{
+    border-left: 2px solid white;
+    display: inline;
+    margin-right: 10px;
+}
+.fas{
+    color: #2885C7;
+}
+.fa-rotate-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
