@@ -7,7 +7,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
     var data = google.visualization.arrayToDataTable([
-      ['Year', 'Sales', 'Expenses'],
+      ['Time', 'Temp', 'Expenses'],
       ['2004',  1000,      400],
       ['2005',  1170,      460],
       ['2006',  660,       1120],

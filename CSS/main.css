@@ -8,17 +8,17 @@ html, body {
 }
 #defaultCity{
     color: white;
-    background-color: rgb(90, 90, 90);
+    background-color: green;
  
 }
 #secondaryCity{
     color: white;
-    background-color: rgb(90, 90, 90);
- 
+    background-color: rgb(255, 166, 0);
 }
 .temp{
-    display: inline;
-    font-size: 100%;
+    font-size: 475%;
+    align-self: center;
+    padding-left: 15px;
 }
 .vL{
     border-left: 2px solid white;
@@ -35,20 +35,25 @@ html, body {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.row{
-    width: 100%;
-    height: 33.3%
-}
-/* #weatherSummary{
-    height: 33.3%;
-    width: 100%;
-} */
-.test{
-    display: inline-block;
-    width: 100%;
-    height: 60%;
-}
 .wu{
     height: 100%;
-    width: 40%;
+    width: 100%;
+}
+#weatherInfo{
+    align-items: center;
+    padding-top: 5px;
+}
+.nopadding{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#city{
+    align-self: center;
+}
+.innerDiv{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#tempNum{
+    padding-left: 15px;
 }
