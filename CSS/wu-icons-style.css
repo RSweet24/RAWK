@@ -1,6 +1,6 @@
 .wu {
   display: inline-block;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
   padding: 0;
   margin: 0;
 }

@@ -9,15 +9,16 @@ html, body {
 #defaultCity{
     color: white;
     background-color: rgb(90, 90, 90);
-    height: 300px;
+ 
 }
 #secondaryCity{
     color: white;
     background-color: rgb(90, 90, 90);
-    height: 300px;
+ 
 }
-span{
-    font-size: 125px;
+.temp{
+    display: inline;
+    font-size: 100%;
 }
 .vL{
     border-left: 2px solid white;
@@ -33,4 +34,21 @@ span{
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+.row{
+    width: 100%;
+    height: 33.3%
+}
+/* #weatherSummary{
+    height: 33.3%;
+    width: 100%;
+} */
+.test{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+}
+.wu{
+    height: 100%;
+    width: 40%;
 }
