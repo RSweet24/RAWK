@@ -1,10 +1,11 @@
 html, body {
     margin: 0;
-    height: 100%;
+    height: 100vh;
 }
 
 .container-fluid{
     height: 100vh !important;
+    overflow: hidden;
 }
 #defaultCity{
     color: white;
@@ -19,11 +20,6 @@ html, body {
     font-size: 475%;
     align-self: center;
     padding-left: 15px;
-}
-.vL{
-    border-left: 2px solid white;
-    display: inline;
-    margin-right: 10px;
 }
 .fas{
     color: #2885C7;
@@ -56,4 +52,21 @@ html, body {
 }
 .tempNum{
     padding-left: 15px;
+}
+#stockInfo{
+    background-color: aquamarine;
+}
+#stockGraph{
+    background-color: chartreuse;
+}
+#companyName{
+    font-size: 3em;
+    margin: 0 auto;
+}
+.stock{
+    height: calc(100% - 357px);
+}
+#stockNumbers{
+    font-size: 2em;
+    margin: 0 auto;
 }
